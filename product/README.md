@@ -1,4 +1,4 @@
-# Test Project
+# test
 
 ## Table of Contents
 
@@ -13,32 +13,33 @@
 
 ## Description
 
-Sample Description
+test
 
 ## Installation
 
-Install
+test
 
 ## Useage
 
-Use
+test
 
 ## Credits
 
-none
+test
 
 ## License
 
-none
+This project is licensed under the terms of the GNU General Public License v3.0
+Click [here](LICENSE.md) for more information.
 
 ## Contributing
 
-dont
+test
 
 ## Tests
 
-lol
+tet
 
 ## Questions
 
-For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com?subject=Question regarding Test Project) 
+For any questions you may have, you can reach me [via GitHub](https://github.com/Test) or [via email](Test) 

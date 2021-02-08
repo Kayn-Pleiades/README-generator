@@ -55,5 +55,8 @@ Switched to prompts for simplicity. Might switch back later, but I worry that pr
 ### Commit 15: email link
 fixed email link
 
+### Commit 16: license
+Added list of licenses. Added a dummy LICENSE file to simulate how the README will link to the user's license in their repository. 
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs

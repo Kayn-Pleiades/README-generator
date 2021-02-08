@@ -3,10 +3,14 @@ const fs = require('fs'); // Allows interaction with file system
 const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
-const questions = ['What is the title of your project?', 'Please enter a description of your project.', 'Please describe how to install your project.',
+const questions = ['What is the title of your project? Make sure what you enter matches your repository name', 'Please enter a description of your project.', 'Please describe how to install your project.',
     'Please describe how to use your project.', 'Please share any resources that were utilized in the creation of your project.', 
     'Please select a license for your project.','How can others contribute to your project?','Please describe how to test your project.','What is your GitHub username?',
     'What is your email?'];
+
+const licenseList = ['none', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License',
+    'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0',
+    'Mozilla Public License 2.0', 'The Unlicense'];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -63,7 +67,7 @@ function init() {
                 type: 'list',
                 message: questions[5],
                 name: 'license',
-                choices: ['none', 'test'],
+                choices: licenseList,
             },
             {
                 type: 'input',
@@ -84,7 +88,7 @@ function init() {
             const install = `${'\n'}## Installation${'\n'}${'\n'}${response.install}${'\n'}`;
             const useage = `${'\n'}## Useage${'\n'}${'\n'}${response.useage}${'\n'}`;
             const credits = `${'\n'}## Credits${'\n'}${'\n'}${response.credits}${'\n'}`;
-            const license = `${'\n'}## License${'\n'}${'\n'}${response.license}${'\n'}`;
+            const license = `${'\n'}## License${'\n'}${'\n'}This project is licensed under the terms of the ${response.license}${'\n'}Click [here](LICENSE.md) for more information.${'\n'}`;
             const contr = `${'\n'}## Contributing${'\n'}${'\n'}${response.contr}${'\n'}`;
             const tests = `${'\n'}## Tests${'\n'}${'\n'}${response.tests}${'\n'}`;
             const ques = `${'\n'}## Questions${'\n'}${'\n'}For any questions you may have, you can reach me [via GitHub](https://github.com/${response.username}) or [via email](${response.email}) ${'\n'}`;
