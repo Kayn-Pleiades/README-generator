@@ -13,22 +13,32 @@
 
 ## Description
 
-Here is description
-
+Sample Description
 
 ## Installation
 
-this is how you install it
-
+Install
 
 ## Useage
 
-This is how you use it
+Use
 
 ## Credits
 
-Here is what I used
+none
 
 ## License
 
-test
+none
+
+## Contributing
+
+dont
+
+## Tests
+
+lol
+
+## Questions
+
+For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com?subject=Question regarding Test Project) 

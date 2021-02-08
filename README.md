@@ -49,5 +49,8 @@ Installation parts added.
 ### Commit 13: base for license
 Added the useage, credits, and the base for the license part. I will finish off the skeleton before going back and finishing the license section.
 
+### Commit 14: skeleton
+Switched to prompts for simplicity. Might switch back later, but I worry that prompts are what the guildlines are expecting. Will ask about in office hours. Finished the skeleton.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
