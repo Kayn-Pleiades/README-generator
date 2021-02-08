@@ -89,7 +89,7 @@ function init() {
             const install = `${'\n'}## Installation${'\n'}${'\n'}${response.install}${'\n'}`;
             const useage = `${'\n'}## Useage${'\n'}${'\n'}${response.useage}${'\n'}`;
             const credits = `${'\n'}## Credits${'\n'}${'\n'}${response.credits}${'\n'}`;
-            const license = `${'\n'}## License${'\n'}${'\n'}This project is licensed under the terms of the ${response.license}${'\n'}Click [here](LICENSE.md) for more information.${'\n'}`;
+            const license = `${'\n'}## License${'\n'}${'\n'}This project is licensed under the terms of the ${response.license}${'\n'}Click [here](LICENSE) for more information.${'\n'}`;
             const contr = `${'\n'}## Contributing${'\n'}${'\n'}${response.contr}${'\n'}`;
             const tests = `${'\n'}## Tests${'\n'}${'\n'}${response.tests}${'\n'}`;
             const ques = `${'\n'}## Questions${'\n'}${'\n'}For any questions you may have, you can reach me [via GitHub](https://github.com/${response.username}) or [via email](mailto:${response.email}) ${'\n'}`;

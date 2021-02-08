@@ -1,12 +1,18 @@
 # README-generator
 
+(https://drive.google.com/file/d/1zMWOznlnpEfouI9iF5WjgTjcwJOqya5u/view?usp=sharing)
+
 ## Table of Contents
 
 * [Description](#description)
+* [Installation](#installation)
 * [Process](#process)
 * [Credits](#credits)
 
 ## Description 
+This app allows users to quickly generate professional quality README files for their repository with ease!
+
+## Installation 
 
 ## Process
 
@@ -63,6 +69,9 @@ Added what hopefully will add a badge. Going to test it and then push so I can v
 
 ### Commit 18: Email link 2
 Badge works! but email link is funky so I'm going to try something else.
+
+### Commit 19: Video Filmed
+Video is filmed and edited. Now to figure out how to embed it.
 
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
