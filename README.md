@@ -61,5 +61,8 @@ Added list of licenses. Added a dummy LICENSE file to simulate how the README wi
 ### Commit 17: Test
 Added what hopefully will add a badge. Going to test it and then push so I can view how it looks on GitHub!
 
+### Commit 18: Email link 2
+Badge works! but email link is funky so I'm going to try something else.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs

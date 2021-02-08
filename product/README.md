@@ -1,5 +1,5 @@
-# README-generator
-![GitHub](https://img.shields.io/github/license/Kayn-Pleiades/README-generator)
+# test
+![GitHub](https://img.shields.io/github/license/test/test)
 ## Table of Contents
 
 * [Description](#description)
@@ -25,7 +25,7 @@ test
 
 ## Credits
 
-test
+
 
 ## License
 
@@ -34,12 +34,12 @@ Click [here](LICENSE.md) for more information.
 
 ## Contributing
 
-test
+
 
 ## Tests
 
-test
+
 
 ## Questions
 
-For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](kayn.pleiades@gmail.com) 
+For any questions you may have, you can reach me [via GitHub](https://github.com/test) or [via email](mailto:test) 
