@@ -37,5 +37,8 @@ Moved the question text to the question array.
 ### Commit 9: table of contents
 I added the table of contents. I've also decided to break each aspect of the README into seperate parts. Not only does this make it look more organized, but if I need to go back and fix something, I can more easily locate what I wish to edit. 
 
+### Commit 10: additional items
+Added the additional sections the guidelines require to my Table of Contents
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
