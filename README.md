@@ -43,5 +43,8 @@ Added the additional sections the guidelines require to my Table of Contents
 ### Commit 11: description
 I decided to do type: editor instead of input for the description. There are multiple benefits to this: Especially that you can easily add line brakes and that going over and making changes before commiting the text is much more accessible. At least on Windows you do need to click save when you exit out of the file, but I think that will cause no less confusion than how clicking enter, either by accident or to attempt to enter a new line, sumbits the prompt. As long as I make it clear in the instructions, all should be dandy!
 
+### Commit 12: install
+Installation parts added. 
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
