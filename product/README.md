@@ -1,4 +1,4 @@
-# Pokemon Cuteness Calculator
+# Test Project
 
 ## Table of Contents
 
@@ -13,8 +13,22 @@
 
 ## Description
 
-Cute!
+Here is description
+
 
 ## Installation
 
-Install by installing, silly!
+this is how you install it
+
+
+## Useage
+
+This is how you use it
+
+## Credits
+
+Here is what I used
+
+## License
+
+test

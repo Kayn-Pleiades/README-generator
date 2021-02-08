@@ -46,5 +46,8 @@ I decided to do type: editor instead of input for the description. There are mul
 ### Commit 12: install
 Installation parts added. 
 
+### Commit 13: base for license
+Added the useage, credits, and the base for the license part. I will finish off the skeleton before going back and finishing the license section.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
