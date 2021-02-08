@@ -34,5 +34,8 @@ The first part of the README is the title, so I have it prompt the title, and th
 ### Commit 8: questions
 Moved the question text to the question array.
 
+### Commit 9: table of contents
+I added the table of contents. I've also decided to break each aspect of the README into seperate parts. Not only does this make it look more organized, but if I need to go back and fix something, I can more easily locate what I wish to edit. 
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs

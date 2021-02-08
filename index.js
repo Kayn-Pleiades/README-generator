@@ -29,7 +29,9 @@ function init() {
         ])
         .then((response) => {
             const fileName = './product/README.md';
-            const content = `# ${response.title}`;
+            const title = `# ${response.title}${'\n'}`;
+            const index = `${'\n'}## Table of Contents${'\n'}* [Description](#description)${'\n'}* [Installation](#installation)${'\n'}* [Usage](#usage)${'\n'}* [Credits](#credits)${'\n'}* [License](#license)`
+            const content = title + index;
 
             writeToFile(fileName, content);
         }
