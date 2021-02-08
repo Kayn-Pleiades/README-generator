@@ -1,18 +1,26 @@
 # README-generator
 
-(https://drive.google.com/file/d/1zMWOznlnpEfouI9iF5WjgTjcwJOqya5u/view?usp=sharing)
+[Please click here for video tutorial!](https://drive.google.com/file/d/1zMWOznlnpEfouI9iF5WjgTjcwJOqya5u/view?usp=sharing)
 
 ## Table of Contents
 
 * [Description](#description)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Process](#process)
 * [Credits](#credits)
+* [Questions](#questions)
 
 ## Description 
 This app allows users to quickly generate professional quality README files for their repository with ease!
 
 ## Installation 
+
+To install this application, you will need to install the [Inquirer package](https://www.npmjs.com/package/inquirer)
+
+## Usage
+To use this application, pleaese refer to [this video](https://drive.google.com/file/d/1zMWOznlnpEfouI9iF5WjgTjcwJOqya5u/view?usp=sharing)
+The application is run by entering the command "node index.js" in your terminal. 
 
 ## Process
 
@@ -73,5 +81,14 @@ Badge works! but email link is funky so I'm going to try something else.
 ### Commit 19: Video Filmed
 Video is filmed and edited. Now to figure out how to embed it.
 
+### Commit 20: fix
+Mixed something funky I did by accident. 
+
+### Commit 21: README
+Readme filled out.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
+
+## Questions
+For any questions you may have, you can reach me [via GitHub](https://github.com/Kayn-Pleiades) or [via email](mailto:kayn.pleiades@gmail.com)
