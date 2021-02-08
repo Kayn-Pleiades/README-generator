@@ -87,9 +87,7 @@ function init() {
             const license = `${'\n'}## License${'\n'}${'\n'}${response.license}${'\n'}`;
             const contr = `${'\n'}## Contributing${'\n'}${'\n'}${response.contr}${'\n'}`;
             const tests = `${'\n'}## Tests${'\n'}${'\n'}${response.tests}${'\n'}`;
-            const subject = `Question regarding ${response.title}`;
-            const email = `mailto:${response.email}?subject=${subject}`;
-            const ques = `${'\n'}## Questions${'\n'}${'\n'}For any questions you may have, you can reach me [via GitHub](https://github.com/${response.username}) or [via email](${email}) ${'\n'}`;
+            const ques = `${'\n'}## Questions${'\n'}${'\n'}For any questions you may have, you can reach me [via GitHub](https://github.com/${response.username}) or [via email](${response.email}) ${'\n'}`;
 
             const content = title + index + desc + install + useage + credits + license + contr + tests + ques;
 

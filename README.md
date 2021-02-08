@@ -52,5 +52,8 @@ Added the useage, credits, and the base for the license part. I will finish off 
 ### Commit 14: skeleton
 Switched to prompts for simplicity. Might switch back later, but I worry that prompts are what the guildlines are expecting. Will ask about in office hours. Finished the skeleton.
 
+### Commit 15: email link
+fixed email link
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
