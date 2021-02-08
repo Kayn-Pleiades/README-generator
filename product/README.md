@@ -1,5 +1,6 @@
 # test
 ![GitHub](https://img.shields.io/github/license/test/test)
+![GitHub](https://img.shields.io/github/license/Kayn-Pleiades/Pokemon-Cuteness-Calculator)
 ## Table of Contents
 
 * [Description](#description)
