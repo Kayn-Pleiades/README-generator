@@ -3,7 +3,7 @@ const fs = require('fs'); // Allows interaction with file system
 const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = ['What is the title of your project?'];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -23,7 +23,7 @@ function init() {
         .prompt([
             {
                 type: 'input',
-                message: 'What is the title of your project?',
+                message: questions[0],
                 name: 'title',
             },
         ])

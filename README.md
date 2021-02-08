@@ -31,5 +31,8 @@ Now I want to edit the file I just created using my code. I can successfully wri
 ### Commit 7: title
 The first part of the README is the title, so I have it prompt the title, and then write that into the file.
 
+### Commit 8: questions
+Moved the question text to the question array.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
