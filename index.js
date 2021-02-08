@@ -3,7 +3,7 @@ const fs = require('fs'); // Allows interaction with file system
 const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
-const questions = ['What is the title of your project?'];
+const questions = ['What is the title of your project?','Please enter a description of your project.'];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -26,12 +26,18 @@ function init() {
                 message: questions[0],
                 name: 'title',
             },
+            {
+                type: 'editor',
+                message: questions[1],
+                name: 'description',
+            },
         ])
         .then((response) => {
             const fileName = './product/README.md';
             const title = `# ${response.title}${'\n'}`;
-            const index = `${'\n'}## Table of Contents${'\n'}* [Description](#description)${'\n'}* [Installation](#installation)${'\n'}* [Usage](#usage)${'\n'}* [Credits](#credits)${'\n'}* [License](#license)${'\n'}* [Contributing](#contributing)${'\n'}* [Tests](#tests)${'\n'}* [Questions](#questions)`
-            const content = title + index;
+            const index = `${'\n'}## Table of Contents${'\n'}${'\n'}* [Description](#description)${'\n'}* [Installation](#installation)${'\n'}* [Usage](#usage)${'\n'}* [Credits](#credits)${'\n'}* [License](#license)${'\n'}* [Contributing](#contributing)${'\n'}* [Tests](#tests)${'\n'}* [Questions](#questions)${'\n'}`
+            const desc = `${'\n'}## Description${'\n'}${'\n'}${response.description}`;
+            const content = title + index + desc;
 
             writeToFile(fileName, content);
         }
