@@ -28,5 +28,8 @@ Firstly, I want a place for the generated README to go. I don't want it to just 
 ### Commit 6: test
 Now I want to edit the file I just created using my code. I can successfully write to the file. Each time I run the code, it overwrites the file.
 
+### Commit 7: title
+The first part of the README is the title, so I have it prompt the title, and then write that into the file.
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs
