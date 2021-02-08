@@ -58,5 +58,8 @@ fixed email link
 ### Commit 16: license
 Added list of licenses. Added a dummy LICENSE file to simulate how the README will link to the user's license in their repository. 
 
+### Commit 17: Test
+Added what hopefully will add a badge. Going to test it and then push so I can view how it looks on GitHub!
+
 ## Credits
 https://nodejs.dev/learn/writing-files-with-nodejs

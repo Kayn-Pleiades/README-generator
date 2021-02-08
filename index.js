@@ -83,6 +83,7 @@ function init() {
         .then((response) => {
             const fileName = './product/README.md';
             const title = `# ${response.title}${'\n'}`;
+            const badge = `![GitHub](https://img.shields.io/github/license/${response.username}/${response.title})`;
             const index = `${'\n'}## Table of Contents${'\n'}${'\n'}* [Description](#description)${'\n'}* [Installation](#installation)${'\n'}* [Usage](#usage)${'\n'}* [Credits](#credits)${'\n'}* [License](#license)${'\n'}* [Contributing](#contributing)${'\n'}* [Tests](#tests)${'\n'}* [Questions](#questions)${'\n'}`
             const desc = `${'\n'}## Description${'\n'}${'\n'}${response.description}${'\n'}`;
             const install = `${'\n'}## Installation${'\n'}${'\n'}${response.install}${'\n'}`;
@@ -93,7 +94,7 @@ function init() {
             const tests = `${'\n'}## Tests${'\n'}${'\n'}${response.tests}${'\n'}`;
             const ques = `${'\n'}## Questions${'\n'}${'\n'}For any questions you may have, you can reach me [via GitHub](https://github.com/${response.username}) or [via email](${response.email}) ${'\n'}`;
 
-            const content = title + index + desc + install + useage + credits + license + contr + tests + ques;
+            const content = title + badge + index + desc + install + useage + credits + license + contr + tests + ques;
 
             writeToFile(fileName, content);
         }
